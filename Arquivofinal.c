@@ -207,7 +207,7 @@ int Repartir(int arr[], int menor, int maior)//Reparte a array entre a posiçao 
 
 int main() {
     int tmn;
-    printf("Escolha um tamamho de 1 - 100.000: ");
+    printf("Escolha um tamanho de 1 - 100.000: ");
     scanf("%d",&tmn);
     int arr[tmn];
     int n = sizeof(arr) / sizeof(arr[0]);
